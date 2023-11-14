@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous">
+    <title>Ali Raza</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container ">
+            <nav>
+                <h1 class="MyLogoh1">A <span class="MyLogo">Raza</span></h1>
+                <ul id="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+                <div class="headerDIv">
+                    <div class="header-text">
+                        <p>Frontend Developer</p> 
+                        <h1>Hi, I'm Ali <br><span>Raza</span> From Thailand</h1>
+                    </div>
+                    <div class="header-image">
+                        <img src="images/profile.jpg" alt="My Pic">
+                    </div>
+                </div>
+        </div> 
+
+    </div>
+
+    <!-- About Me section -->
+
+    <div id="about ">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/MainPic.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a programmer with a passion for coding. I'm skilled in HTML, CSS, and JavaScript, and I'm currently learning React. I enjoy crafting solutions to real-world problems through code. When not programming, you'll find me diving into new tech and building exciting new projects.</p>
+
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="openTab('skills')">Skills</div>
+                        <div class="tab-links" onclick="openTab('experience')">Experience </div>
+                        <div class="tab-links" onclick="openTab('education')">Education</div>
+                    </div>
+                    
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UX/UI</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Wde Development</span><br> Web App Development</li>
+                            <li><span>App Development</span><br> Building Android/IOS apps</li>
+                        
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Front-End Developer</span><br>WebTech Pro, 2017-2021</li>
+                            <li><span>Full-Stack Developer</span><br>Coding Bachelors Inc., 2023-2027</li>
+                            <li><span>Student @ BVT</span><br>Bay Valley Tech, 2023-2014</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <ul>
+                                <li><span>Bachelor of Science in Computer Science</span><br>University of Imaginary Technology, 2023-2027</li>
+                                <li><span>Master of Business Administration</span><br>Fictional Business School, 2025-2027</li>
+                                <li><span>Online Courses</span><br>Various online courses on coding and design, 2023-2023</li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum magni, consequatur dolore aperiam ut corporis cum officia quia maiores vel debitis voluptate maxime, iure perferendis est, aut voluptas eaque ad.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Front-End</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum magni, consequatur dolore aperiam ut corporis cum officia quia maiores vel debitis voluptate maxime, iure perferendis est, aut voluptas eaque ad.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum magni, consequatur dolore aperiam ut corporis cum officia quia maiores vel debitis voluptate maxime, iure perferendis est, aut voluptas eaque ad.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- My portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/FirstProject.png" alt="My work">
+                    <div class="layer">
+                        <h3>Workout App</h3>
+                        <p>This app calculates all the Things related to Workout</p>
+                        <a href="https://module-two-workout-project.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/ComingSoon.png" alt="My work">
+                    <div class="layer">
+                        <h3> Music App</h3>
+                        <p>This app calculates all the Things related to Workout</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/ComingSoon.png" alt="My work">
+                    <div class="layer">
+                        <h3>Shopping list App</h3>
+                        <p>This app calculates all the Things related to Workout</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn"> See More</a>
+
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>ali.raza.bvt2023@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 0633491825</p>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/profile.php?id=100068508801975"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com/Raza-Ali2023"><i class="fa-brands fa-github"></i></i></a>
+                        <a href="https://www.instagram.com/ar_raza180/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ali-raza-aab099279/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©️ Ali. Made with <i class="fa-solid fa-heart"></i> by Ali Raza</p>
+        </div>
+    </div>
+
+    <script>
+    
+    var tabLinks = document.getElementsByClassName('tab-links')
+    var tabContents = document.getElementsByClassName('tab-contents')
+
+    function openTab(tabName) {
+        for (tabLink of tabLinks) {
+            tabLink.classList.remove("active-link");
+        }
+        for (tabContent of tabContents) {
+            tabContent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabName).classList.add("active-tab");
+}
+
+    const sideMenu = document.getElementById('sideMenu')
+
+    function openMenu(){
+        sideMenu.style.right = "0";
+
+    }
+
+    function closeMenu(){
+        sideMenu.style.right = "-200px";
+
+    }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw3DVtg0Rfre8AdJji-4q40An-S_mrooWuCi8b6E148A2jWw0kxmyrVJKdgMOZnVog4Eg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById['msg']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },4000) 
+            })
+            form.reset
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
